@@ -43,7 +43,7 @@ public class BankAccount {
 	public boolean isAccountNegative(BankAccount account) {
 		boolean funds = false;
 		
-		if (getBalance() > 0) {
+		if (getBalance() < 0) {
 			funds = true;
 		}
 		
@@ -62,4 +62,6 @@ public class BankAccount {
 		
 		return rich;
 	}
+	
+	//Add a try catch to find out if the withdraw would put account in the negative and assess a $30 fee to it.
 }
