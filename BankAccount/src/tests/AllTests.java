@@ -1,3 +1,7 @@
+//Mike Smith
+//Test Suite to execute all JUnit Test Cases
+
+
 package tests;
 
 import org.junit.runner.RunWith;
